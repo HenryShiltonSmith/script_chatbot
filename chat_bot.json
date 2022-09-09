@@ -1,0 +1,94 @@
+{
+    "greeting": {
+    "Input": ["hi there","is anyone there","hey","hola","hello","good day","hi","hiya","hello there","sup","greetings","howdy",
+        "good morning","good evening"],
+    "Output": "Hello. How can I help you"
+    },
+    "goodbye": {
+    "Input": ["bye", "see you later", "goodbye", "nice chatting to you, bye", "till next time", "cya", "see ya", "toodles","in abit",
+        "catch you later","catch ya later","take care","ttyl"],
+    "Output": "Goodbye. Hope I was able to help"
+    },
+    "thanks": {
+    "Input": ["thanks", "thank you", "that's helpful", "awesome, thanks", "thanks for helping me","cheers","ta"],
+    "Output": "Happy to help! Is there anything else I can help with"
+    },
+    "company_do": {
+    "Input": ["what does your company do","what does generic inc do","what service do you provide","what do you do"],
+    "Output": "Generic Inc. provides 3rd party software development"
+    },
+    "options": {
+    "Input": ["how you could help me", "", "how you can be helpful","please help me","i am a bit stuck","please help",
+        "in what way can you help"],
+    "Output": "I can guide you through what services Generic Inc. provides, order tracking, people to be contacted and more"
+    },
+    "order_tracking": {
+    "Input": ["where is my order"],
+    "Output": "Your order will have been given a development team. This team should update you on its development"
+    },
+    "appointment_request": {
+    "Input": ["i want to make an appoitment"],
+    "Output": "Please contact this email with who you wish to meet and the requested date. appointmentscb@genericinc.org"
+    },
+    "cost": {
+    "Input": ["is it free","how much will the project cost","what does this cost","how much will this cost me","does this cost alot",
+        "how much is the service","how much is the software"],
+    "Output": "The cost of your project will depend on what you request. Please discuss your idea with your team. It will not be free though."
+    },
+    "time": {
+    "Input": ["how long will it take","how long does a project take","what timeframe can i expect","how long do i have to wait",
+        "how long do you take","how long do you take to make a piece of software"],
+    "Output": "The time of a project will depend on what you request. Please discuss your idea with your team."
+    },
+    "refund": {
+    "Input": ["can i get a refund","i want a refund","give me my money back","i demand a refund"],
+    "Output": "If the project has been signed off a refund is not possible. To make a complaint please contact complaintscb@genericinc.org"
+    },
+    "team_info": {
+        "Input": ["how much experience do your teams have","are your teams skilled","do your teams have experience","will my project be good",
+            "will my software be good","how do i know you're good"],
+        "Output": "Please contact complaintscb@genericinc.org to formally complain"
+    },
+    "inc_info": {
+        "Input": ["tell me about your company.","temm me about generic inc","i want to know about your company","give me company info"],
+        "Output": "Our company was founded on February 18th 2022 by Henry Generic. We aim to create bespoke software for those who need it"
+    },
+    "customer_satisfaction": {
+        "Input": ["how is your customer response","are your customers happy","what is customer feedback","do people like yor final products",
+            "are people satisfied with your work"],
+        "Output": "Our customers are overall happy and 96% are happy with the first itteration of their project."
+    },
+    "maintainence": {
+        "Input": ["something is wrong with my product.","my software broke","my software needs fixing","my project needs fixing",
+            "my software isn't working"],
+        "Output": "Contact the email given at the end of the project. It should be similar to maintainence[ID Number]@genericinc.org. If you no longer have this email please contact maintainencecb@genericinc.org"
+    },
+    "noans": {
+        "Input": ["why","how","when","i","you","we","what","if","who"],
+        "Output": "Your qeustion doesn't make sense. Please elaborate"
+    },
+    "start business": {
+        "Input": ["i wish to start a project","start job","start business","i want to hire you","how do i hire you",
+            "how do i start a project","how do i work with you","start to work with you","start a project"],
+        "Output": "I truly hope that we can work together. Please contact applicationCB@genericinc.org"
+    },
+    "are_human": {
+        "Input": ["are you human","are you a human"],
+        "Output": "I am not human. I am a automated chatbot."
+
+    },
+    "are_bot": {
+        "Input": ["are you robot","are you a robot","are you bot","are you a bot"],
+        "Output": "Yes I am an automated chatbot system."
+
+    },
+    "are_real": {
+        "Input": ["are you real"],
+        "Output": "No I am not real. I am an automated chatbot system."
+
+    },
+    "empty": {
+        "Input": [""," ","  ","   ","     ","      "],
+        "Output": "I think you may have hit the enter key by mistake"
+    }
+}
